@@ -49,7 +49,7 @@ SRCS_NAME = check_tetriminos.c \
 all: $(NAME)
 
 $(NAME):
-	@gcc $(FLAG) -c $(SRCS) -I $(HEAD)
+	@clang $(FLAG) -c $(SRCS) -I $(HEAD)
 	@gcc -o $(NAME) $(OBJS) $(LIBFT)
 	@echo "\033[31mCompiled !\033[0m"
 
