@@ -29,7 +29,7 @@ mv fillit ./correction_fillit/
 echo "\033[33m\n----------------------TEST FONCTION INTERDITE------------------------\n\033[0m"
 cd ./correction_fillit
 
-nm -u fillit
+nm fillit
 
 echo "\033[33m\n----------------------GESTION D'ERREUR------------------------\n\033[0m"
 
